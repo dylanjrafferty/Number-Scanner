@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEAF35627C18D6B008C5DA7 /* Number_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF35527C18D6B008C5DA7 /* Number_ScannerApp.swift */; };
+		3FEAF35827C18D6B008C5DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF35727C18D6B008C5DA7 /* ContentView.swift */; };
+		3FEAF35A27C18D6C008C5DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAF35927C18D6C008C5DA7 /* Assets.xcassets */; };
+		3FEAF35D27C18D6C008C5DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEAF35C27C18D6C008C5DA7 /* Preview Assets.xcassets */; };
+		3FEAF36727C18D6C008C5DA7 /* Number_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF36627C18D6C008C5DA7 /* Number_ScannerTests.swift */; };
+		3FEAF37127C18D6C008C5DA7 /* Number_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF37027C18D6C008C5DA7 /* Number_ScannerUITests.swift */; };
+		3FEAF37327C18D6C008C5DA7 /* Number_ScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF37227C18D6C008C5DA7 /* Number_ScannerUITestsLaunchTests.swift */; };
+		3FEAF38027C18E98008C5DA7 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF37F27C18E98008C5DA7 /* ScannerView.swift */; };
+		3FEAF38227C18F82008C5DA7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF38127C18F82008C5DA7 /* HomeView.swift */; };
+		3FEAF38527C195F4008C5DA7 /* VisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF38427C195F4008C5DA7 /* VisionManager.swift */; };
+		3FEAF38727C2F657008C5DA7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEAF38627C2F657008C5DA7 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEAF36327C18D6C008C5DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEAF34A27C18D6B008C5DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEAF35127C18D6B008C5DA7;
+			remoteInfo = "Number Scanner";
+		};
+		3FEAF36D27C18D6C008C5DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEAF34A27C18D6B008C5DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEAF35127C18D6B008C5DA7;
+			remoteInfo = "Number Scanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FEAF35227C18D6B008C5DA7 /* Number Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEAF35527C18D6B008C5DA7 /* Number_ScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_ScannerApp.swift; sourceTree = "<group>"; };
+		3FEAF35727C18D6B008C5DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FEAF35927C18D6C008C5DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEAF35C27C18D6C008C5DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FEAF36227C18D6C008C5DA7 /* Number ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEAF36627C18D6C008C5DA7 /* Number_ScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_ScannerTests.swift; sourceTree = "<group>"; };
+		3FEAF36C27C18D6C008C5DA7 /* Number ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEAF37027C18D6C008C5DA7 /* Number_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_ScannerUITests.swift; sourceTree = "<group>"; };
+		3FEAF37227C18D6C008C5DA7 /* Number_ScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_ScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FEAF37F27C18E98008C5DA7 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		3FEAF38127C18F82008C5DA7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3FEAF38427C195F4008C5DA7 /* VisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionManager.swift; sourceTree = "<group>"; };
+		3FEAF38627C2F657008C5DA7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEAF34F27C18D6B008C5DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEAF35F27C18D6C008C5DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEAF36927C18D6C008C5DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEAF34927C18D6B008C5DA7 = {
+			isa = PBXGroup;
+			children = (
+				3FEAF35427C18D6B008C5DA7 /* Number Scanner */,
+				3FEAF36527C18D6C008C5DA7 /* Number ScannerTests */,
+				3FEAF36F27C18D6C008C5DA7 /* Number ScannerUITests */,
+				3FEAF35327C18D6B008C5DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEAF35327C18D6B008C5DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF35227C18D6B008C5DA7 /* Number Scanner.app */,
+				3FEAF36227C18D6C008C5DA7 /* Number ScannerTests.xctest */,
+				3FEAF36C27C18D6C008C5DA7 /* Number ScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEAF35427C18D6B008C5DA7 /* Number Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF38827C2F78C008C5DA7 /* Managers */,
+				3FEAF38327C195D0008C5DA7 /* Views */,
+				3FEAF35527C18D6B008C5DA7 /* Number_ScannerApp.swift */,
+				3FEAF35927C18D6C008C5DA7 /* Assets.xcassets */,
+				3FEAF35B27C18D6C008C5DA7 /* Preview Content */,
+			);
+			path = "Number Scanner";
+			sourceTree = "<group>";
+		};
+		3FEAF35B27C18D6C008C5DA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF35C27C18D6C008C5DA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FEAF36527C18D6C008C5DA7 /* Number ScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF36627C18D6C008C5DA7 /* Number_ScannerTests.swift */,
+			);
+			path = "Number ScannerTests";
+			sourceTree = "<group>";
+		};
+		3FEAF36F27C18D6C008C5DA7 /* Number ScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF37027C18D6C008C5DA7 /* Number_ScannerUITests.swift */,
+				3FEAF37227C18D6C008C5DA7 /* Number_ScannerUITestsLaunchTests.swift */,
+			);
+			path = "Number ScannerUITests";
+			sourceTree = "<group>";
+		};
+		3FEAF38327C195D0008C5DA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF37F27C18E98008C5DA7 /* ScannerView.swift */,
+				3FEAF38127C18F82008C5DA7 /* HomeView.swift */,
+				3FEAF35727C18D6B008C5DA7 /* ContentView.swift */,
+				3FEAF38627C2F657008C5DA7 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FEAF38827C2F78C008C5DA7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3FEAF38427C195F4008C5DA7 /* VisionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEAF35127C18D6B008C5DA7 /* Number Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEAF37627C18D6C008C5DA7 /* Build configuration list for PBXNativeTarget "Number Scanner" */;
+			buildPhases = (
+				3FEAF34E27C18D6B008C5DA7 /* Sources */,
+				3FEAF34F27C18D6B008C5DA7 /* Frameworks */,
+				3FEAF35027C18D6B008C5DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Number Scanner";
+			productName = "Number Scanner";
+			productReference = 3FEAF35227C18D6B008C5DA7 /* Number Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEAF36127C18D6C008C5DA7 /* Number ScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEAF37927C18D6C008C5DA7 /* Build configuration list for PBXNativeTarget "Number ScannerTests" */;
+			buildPhases = (
+				3FEAF35E27C18D6C008C5DA7 /* Sources */,
+				3FEAF35F27C18D6C008C5DA7 /* Frameworks */,
+				3FEAF36027C18D6C008C5DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEAF36427C18D6C008C5DA7 /* PBXTargetDependency */,
+			);
+			name = "Number ScannerTests";
+			productName = "Number ScannerTests";
+			productReference = 3FEAF36227C18D6C008C5DA7 /* Number ScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEAF36B27C18D6C008C5DA7 /* Number ScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEAF37C27C18D6C008C5DA7 /* Build configuration list for PBXNativeTarget "Number ScannerUITests" */;
+			buildPhases = (
+				3FEAF36827C18D6C008C5DA7 /* Sources */,
+				3FEAF36927C18D6C008C5DA7 /* Frameworks */,
+				3FEAF36A27C18D6C008C5DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEAF36E27C18D6C008C5DA7 /* PBXTargetDependency */,
+			);
+			name = "Number ScannerUITests";
+			productName = "Number ScannerUITests";
+			productReference = 3FEAF36C27C18D6C008C5DA7 /* Number ScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEAF34A27C18D6B008C5DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3FEAF35127C18D6B008C5DA7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3FEAF36127C18D6C008C5DA7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FEAF35127C18D6B008C5DA7;
+					};
+					3FEAF36B27C18D6C008C5DA7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3FEAF35127C18D6B008C5DA7;
+					};
+				};
+			};
+			buildConfigurationList = 3FEAF34D27C18D6B008C5DA7 /* Build configuration list for PBXProject "Number Scanner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEAF34927C18D6B008C5DA7;
+			productRefGroup = 3FEAF35327C18D6B008C5DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEAF35127C18D6B008C5DA7 /* Number Scanner */,
+				3FEAF36127C18D6C008C5DA7 /* Number ScannerTests */,
+				3FEAF36B27C18D6C008C5DA7 /* Number ScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEAF35027C18D6B008C5DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEAF35D27C18D6C008C5DA7 /* Preview Assets.xcassets in Resources */,
+				3FEAF35A27C18D6C008C5DA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEAF36027C18D6C008C5DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEAF36A27C18D6C008C5DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEAF34E27C18D6B008C5DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEAF38027C18E98008C5DA7 /* ScannerView.swift in Sources */,
+				3FEAF38227C18F82008C5DA7 /* HomeView.swift in Sources */,
+				3FEAF35827C18D6B008C5DA7 /* ContentView.swift in Sources */,
+				3FEAF38727C2F657008C5DA7 /* SettingsView.swift in Sources */,
+				3FEAF38527C195F4008C5DA7 /* VisionManager.swift in Sources */,
+				3FEAF35627C18D6B008C5DA7 /* Number_ScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEAF35E27C18D6C008C5DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEAF36727C18D6C008C5DA7 /* Number_ScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEAF36827C18D6C008C5DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEAF37327C18D6C008C5DA7 /* Number_ScannerUITestsLaunchTests.swift in Sources */,
+				3FEAF37127C18D6C008C5DA7 /* Number_ScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEAF36427C18D6C008C5DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEAF35127C18D6B008C5DA7 /* Number Scanner */;
+			targetProxy = 3FEAF36327C18D6C008C5DA7 /* PBXContainerItemProxy */;
+		};
+		3FEAF36E27C18D6C008C5DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEAF35127C18D6B008C5DA7 /* Number Scanner */;
+			targetProxy = 3FEAF36D27C18D6C008C5DA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FEAF37427C18D6C008C5DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FEAF37527C18D6C008C5DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEAF37727C18D6C008C5DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Number Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = NGS8V7AP52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Number scanner requires access to the camera to scan content.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovativeapps4u.Number-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEAF37827C18D6C008C5DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Number Scanner/Preview Content\"";
+				DEVELOPMENT_TEAM = NGS8V7AP52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Number scanner requires access to the camera to scan content.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovativeapps4u.Number-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FEAF37A27C18D6C008C5DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGS8V7AP52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovativeapps4u.Number-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Number Scanner.app/Number Scanner";
+			};
+			name = Debug;
+		};
+		3FEAF37B27C18D6C008C5DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGS8V7AP52;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovativeapps4u.Number-ScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Number Scanner.app/Number Scanner";
+			};
+			name = Release;
+		};
+		3FEAF37D27C18D6C008C5DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGS8V7AP52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovativeapps4u.Number-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Number Scanner";
+			};
+			name = Debug;
+		};
+		3FEAF37E27C18D6C008C5DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGS8V7AP52;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.innovativeapps4u.Number-ScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Number Scanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEAF34D27C18D6B008C5DA7 /* Build configuration list for PBXProject "Number Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEAF37427C18D6C008C5DA7 /* Debug */,
+				3FEAF37527C18D6C008C5DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEAF37627C18D6C008C5DA7 /* Build configuration list for PBXNativeTarget "Number Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEAF37727C18D6C008C5DA7 /* Debug */,
+				3FEAF37827C18D6C008C5DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEAF37927C18D6C008C5DA7 /* Build configuration list for PBXNativeTarget "Number ScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEAF37A27C18D6C008C5DA7 /* Debug */,
+				3FEAF37B27C18D6C008C5DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEAF37C27C18D6C008C5DA7 /* Build configuration list for PBXNativeTarget "Number ScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEAF37D27C18D6C008C5DA7 /* Debug */,
+				3FEAF37E27C18D6C008C5DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEAF34A27C18D6B008C5DA7 /* Project object */;
+}
