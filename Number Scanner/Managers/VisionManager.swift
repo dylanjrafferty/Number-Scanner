@@ -46,7 +46,7 @@ import Vision
     
     private func processImage(_ image: CGImage) async throws -> [String] {
         let requestHandler = VNImageRequestHandler(cgImage: image)
-        let request = try await requestHandler.perform(requestHandler)
+        let request = try await requestHandler.perform()
         guard let strings = request.recognizedStrings else { throw VisionError.unableToProcess }
         return strings
     }
@@ -91,7 +91,7 @@ extension VNRequest {
 
 extension VNImageRequestHandler {
     
-    func perform(_ handler: VNImageRequestHandler) async throws -> VNRequest {
+    func perform() async throws -> VNRequest {
         try await withCheckedThrowingContinuation { continuation in
             let request = VNRecognizeTextRequest { request, error in
                 if error != nil { continuation.resume(throwing: VisionError.unableToProcess) }
